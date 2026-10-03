@@ -3,10 +3,22 @@
 
 body {
     font-family: Oswald, sans-serif;
+    color: black;
 }
 
 h1 {
     font-family: Bebas Neue, sans-serif;
+    color: white;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: black;
+}
+
+#navbar .logo {
+    width: 50px;
 }
 
 /* grid visualisation CSS for testing */
