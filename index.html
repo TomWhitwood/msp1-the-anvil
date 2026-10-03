@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Anvil gym welcomes all ages and fitness levels.">
+    <meta name="description" content="The Anvil is more than a gym. It is a place where stength, confidence and resilience are shaped through hard work and determination. Whether you are taking your first strike or refining years of experience, The Anvil provides the tools, guidance, and community needed to help you forge a stronger body and a stronger self. Every workout at The Anvil is another step in crafting the person you aspire to become.">
     <title>The Anvil | Gym & Fitness Centre</title>
 
     <!-- Bootstrap CSS -->
@@ -13,16 +13,15 @@
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+
+<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
     <h1>The Anvil</h1>
     <p>Forging Bodies. Building Strength. Tempering Minds.</p>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/91238192bb.js" crossorigin="anonymous"></script>
 
-    
-    <!-- Header -->
-    <header>
-        
+    <!-- Navigation -->   
     <!-- Navbar copied from Bootstrap -->   
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -40,16 +39,36 @@
     </div>
   </div>
 </nav>
-    </header>
-    
-    <!-- Main Content -->
-    <main>
 
+    <!-- Header with hero image -->
+     <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">The Anvil</div>
+            <div class="col-12 col-xl-6">Hero image</div>
+        </div>
+     </header>
+    
+    
+    <!-- Main elemement to hold all key sections of the home page. It is not part of the grid structure -->
+    <main>
+        <!-- About section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">About</div>
+                <div class="col-12">Carousel Images</div>
+                <div class="col-12">Testimonials</div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row">
+               <div class="col-12">Social Media Icons</div> 
+            </div>
+        </div>
     </footer>
     
 </body>
