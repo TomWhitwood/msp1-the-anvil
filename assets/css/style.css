@@ -43,6 +43,13 @@ h1 {
     width: 60px;
 }
 
+/* Main content */
+main {
+    background-color: lightgray;
+    /* Make main element take up remaining space to push footer down */
+    flex: 1 0 auto;
+}
+
 /* Hero section */
 #hero-image-1 {
     height: 600px;
