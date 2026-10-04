@@ -4,12 +4,12 @@
 /* Global styles */
 body {
     font-family: Oswald, sans-serif;
-    color: black;
+    color: white;
 }
 
 h1 {
     font-family: Bebas Neue, sans-serif;
-    color: black;
+    color: white;
 }
 
 .section {
@@ -20,18 +20,12 @@ h1 {
 /* Navbar */
 #navbar {
     background-color: black;
+    font-size: 1.5rem;
 }
 
 #navbar .logo {
     width: 50px;
 }
-
-/* Header */
-header {
-    flex: 1 0 auto;
-}
-
-
 
 /* Hero section */
 #hero-image-1 {
@@ -39,6 +33,12 @@ header {
     width: 100%;
     background: url("../images/The Anvil Hero Image 1 1920 x 1282px.jpg") no-repeat center top;
     background-size: cover;
+}
+
+.hero-text-1 {
+    top: 20%;
+    left: 5%;
+    font-size: 10rem;
 }
 
 /* Media queries for responsive design */
