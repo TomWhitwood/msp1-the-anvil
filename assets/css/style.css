@@ -58,8 +58,18 @@ h1 {
 }
 
 /* Footer */
-footer {
-    background-color: yellow;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks svg {
+    font-size: 160%;
+    padding: 5%;
+    color: black;
 }
 
 /* Media queries for responsive design */
