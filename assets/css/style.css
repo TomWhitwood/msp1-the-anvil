@@ -1,6 +1,22 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles */
+    color: #3a3a3a;
+}
+
 /* Global styles */
 body {
     font-family: Oswald, sans-serif;
@@ -39,6 +55,11 @@ h1 {
     top: 20%;
     left: 5%;
     font-size: 10rem;
+}
+
+/* Footer */
+footer {
+    background-color: yellow;
 }
 
 /* Media queries for responsive design */
