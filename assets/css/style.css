@@ -38,6 +38,11 @@ h3 {
     color: white;
 }
 
+hr {
+    color: black;
+    opacity: 1;
+}
+
 /* Navbar */
 #navbar {
     background-color: black;
@@ -83,6 +88,20 @@ main {
     position: absolute;
     top: 87.5%;
     right: 1%;
+}
+
+/* About section */
+.about-header {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#about-section p {
+    color: black;
+    text-align: center;
 }
 
 /* Footer */
