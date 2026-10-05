@@ -73,6 +73,9 @@ main {
     padding-top: 10px;
     padding-left: 15px;
     background-color: rgba(89, 85, 74, 0.3); /* Semi-transparent background for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #cover-text h3 {
@@ -98,16 +101,36 @@ main {
 }
 
 /* Media queries for responsive design */
-/* Adjusted height only for large screens (1024px and up) */
-@media (min-width: 1024px) {
+
+/* Small screens (576px and up) */
+
+/* Medium screens (768px and up) */
+/* Adjusted text size for medium screens */
+@media (min-width: 768px) {
+    #cover-text h2 {
+        font-size: 3.75rem        
+    }
+}
+/* Large screens (992px and up) */
+/* Adjusted height only for large screens */
+@media (min-width: 992px) {
     #hero-image-1 {
         height: 960px;
     }
+/* Adjusted text size for large screens */
+    #cover-text h2 {
+        font-size: 4.75rem;
+    }
 }
-/* Adjusted height only for extra-large screens (1920px and up) */
-@media (min-width: 1920px) {
+/* Adjusted text size for large screens */
+/* Extra-large screens (1200px and up) */
+/* Adjusted height only for extra-large screens */
+@media (min-width: 1200px) {
     #hero-image-1 {
         height: 1282px;
+    }
+    #cover-text h2 {
+        font-size: 5.75rem;
     }
 }
 /* grid visualisation CSS for testing */
