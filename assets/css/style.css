@@ -79,10 +79,10 @@ main {
 }
 
 #cover-text h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     position: absolute;
-    top: 40%;
-    right: 5%;
+    top: 87.5%;
+    right: 1%;
 }
 
 /* Footer */
@@ -103,12 +103,25 @@ main {
 /* Media queries for responsive design */
 
 /* Small screens (576px and up) */
-
+/* Adjusted text size for small screens */
+@media (min-width: 576px) {
+    #cover-text h3 {
+        font-size: 2rem;
+        top: 78.5%;
+        right: 2.5%;
+    }
+}
 /* Medium screens (768px and up) */
 /* Adjusted text size for medium screens */
 @media (min-width: 768px) {
     #cover-text h2 {
         font-size: 3.75rem        
+    }
+
+    #cover-text h3 {
+        font-size: 2rem;
+        top: 78.5%;
+        right: 2.5%;
     }
 }
 /* Large screens (992px and up) */
@@ -121,16 +134,25 @@ main {
     #cover-text h2 {
         font-size: 4.75rem;
     }
+
+    #cover-text h3 {
+        font-size: 3rem;
+        top: 80%;
+    }
 }
-/* Adjusted text size for large screens */
+
 /* Extra-large screens (1200px and up) */
 /* Adjusted height only for extra-large screens */
 @media (min-width: 1200px) {
     #hero-image-1 {
         height: 1282px;
     }
+/* Adjusted text size for extra-large screens */
     #cover-text h2 {
         font-size: 5.75rem;
+    }
+    #cover-text h3 {
+        font-size: 4rem;
     }
 }
 /* grid visualisation CSS for testing */
