@@ -109,6 +109,11 @@ main {
     font-size: 40px;
 }
 
+.card-body {
+    border-color: black;
+    border-radius: 5;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
