@@ -93,7 +93,6 @@ main {
 /* About section */
 .about-header {
     color: black;
-    font-weight: bold;
     font-size: 40px;
     text-align: center;
     padding-top: 5%;
@@ -102,6 +101,12 @@ main {
 #about-section p {
     color: black;
     text-align: center;
+}
+
+/* Testimonials section */
+#testimonials-section h2 {
+    color: black;
+    font-size: 40px;
 }
 
 /* Footer */
