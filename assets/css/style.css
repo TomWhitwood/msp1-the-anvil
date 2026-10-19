@@ -109,6 +109,11 @@ main {
     font-size: 40px;
 }
 
+/* Gallery section */
+#photos img {
+    width: 100%;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
