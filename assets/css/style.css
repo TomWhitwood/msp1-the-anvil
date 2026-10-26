@@ -254,6 +254,21 @@ main {
     background: #000;
     color: #fff;
 }
+
+/* Map fills the card on large screens, fixed height on small ones */
+.map-embed {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 300px;
+    border: 0;
+}
+
+.map-embed svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -304,6 +319,11 @@ main {
     #photos {
         column-count: 3;
     }
+
+/* Map */
+.map-embed {
+    min-height: 380px;
+}
 }
 /* Large screens (992px and up) */
 /* Adjusted height only for large screens */
