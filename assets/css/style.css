@@ -215,6 +215,20 @@ main {
     padding: .75rem 1.25rem;
 }
 
+.hours-table {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.hours-table th {
+    font-weight: 500;
+}
+
+.hours-table td {
+    text-align: end;
+    white-space: nowrap;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
