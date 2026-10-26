@@ -127,6 +127,21 @@ main {
     text-align: center;
 }
 
+/* Enquiry form section */
+#enquiry-form {
+    max-width: 420px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#enquiry-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
