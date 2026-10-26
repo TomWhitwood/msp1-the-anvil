@@ -49,7 +49,7 @@
     <!-- Main elemement to hold all key sections of the enquire page -->
     <main>
         <form id="enquiry-form">
-            <h2>Membership Enquiry</h2>
+            <h2 style="color: black">Membership Enquiry</h2>
 
             <label for="first-name">First name</label>
             <input type="text" id="first-name" name="first-name" placeholder="e.g Sam" autocomplete="given-name"
@@ -79,6 +79,17 @@
             <!-- Form message copied from AI (claude) as I wanted positive user feedback and was unsure on how to add this -->
             <p id="form-message" role="status" aria-live="polite" hidden></p>
         </form>
+
+         <!-- Button section for navigation to Contact Us -->
+        <section>
+            <div class="container text-center">
+                <h3 class="mb-4" style="color:black">Contact us directly if you would like more information</h3>
+
+
+                <!-- Button copied and adjusted from Bootstrap -->
+                <a href="contactus.html"><button type="button" class="btn btn-lg btn-outline-primary">Contact Us</button></a>
+            </div>
+        </section>
 
     </main>
 
