@@ -109,6 +109,24 @@ main {
     font-size: 40px;
 }
 
+/* Gallery section */
+#photos img {
+    width: 100%;
+}
+
+/* Memberships section */
+.memberships-header {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#memberships-text p {
+    color: black;
+    text-align: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -134,6 +152,12 @@ main {
         top: 78.5%;
         right: 2.5%;
     }
+/* Gallery */
+/* Added columns for larger mobile screens so images are not too large */   
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 /* Medium screens (768px and up) */
 /* Adjusted text size for medium screens */
@@ -146,6 +170,12 @@ main {
         font-size: 2rem;
         top: 78.5%;
         right: 2.5%;
+    }
+
+/* Gallery */
+/* Added columns for tablets so images are not too large */
+    #photos {
+        column-count: 3;
     }
 }
 /* Large screens (992px and up) */
@@ -162,6 +192,12 @@ main {
     #cover-text h3 {
         font-size: 3rem;
         top: 80%;
+    }
+
+/* Gallery */
+/* Added columns to large screens so images are not too large */
+    #photos {
+        column-count: 4;
     }
 }
 
@@ -190,4 +226,3 @@ main {
     border: 2px solid white;
     background-color: lightgray;
 } */
-
