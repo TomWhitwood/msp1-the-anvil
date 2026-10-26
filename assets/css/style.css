@@ -229,6 +229,31 @@ main {
     white-space: nowrap;
 }
 
+.contact-list dt {
+    font-weight: 300;
+    color: #555;
+}
+
+.contact-list dd {
+    font-size: 1.25rem;
+    margin-bottom: 2px solid #000;
+}
+
+.contact-list dd:last-child {
+    margin-bottom: 0;
+}
+
+.contact-list a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+}
+
+.contact-list a:hover,
+.contact-list a:focus-visible {
+    background: #000;
+    color: #fff;
+}
 /* Footer */
 #social-networks {
     text-align: center;
