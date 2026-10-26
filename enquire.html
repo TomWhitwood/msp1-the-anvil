@@ -61,7 +61,7 @@
 
             <label for="email">Email address</label>
             <input type="email" id="email" name="email" placeholder="name@example.com" autocomplete="email" required>
-    <!-- Pattern and title copied from AI (claude) -->
+            <!-- Pattern and title copied from AI (claude) -->
             <label for="phone">Phone number</label>
             <input type="tel" id="phone" name="phone" placeholder="e.g 07123 456789" autocomplete="tel"
                 pattern="[0-9+\s\-()]{10,15}" title="Please enter a valid phone number (10-15 digits)" required>
@@ -72,11 +72,11 @@
                 <option value="standard">Standard Membership</option>
                 <option value="student">Students and Teenagers Membership</option>
                 <option value="senior">Senior Membership</option>
-                <option value="blue-light">Blue Light Membership</option>  
+                <option value="blue-light">Blue Light Membership</option>
             </select>
 
             <button type="submit">Submit enquiry</button>
-    <!-- Form message copied from AI (claude) as I wanted positive user feedback and was unsure on how to add this -->
+            <!-- Form message copied from AI (claude) as I wanted positive user feedback and was unsure on how to add this -->
             <p id="form-message" role="status" aria-live="polite" hidden></p>
         </form>
 
@@ -114,6 +114,22 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/91238192bb.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript copied from AI (claude) as I wanted a message to pop up after the form had been submitted for positive user feedback and was not sure how to do this -->
+    <script>
+        const form = document.getElementById("enquiry-form");
+        const message = document.getElementById("form-message");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault(); // stops the page reloading
+
+            const name = document.getElementById("first-name").value;
+            message.textContent = "Thank you, " + name + "! Your enquiry has been submitted. We'll be in touch soon.";
+            message.hidden = false;
+
+            form.reset(); // clears the fields
+        });
+    </script>
 </body>
 
 </html>
