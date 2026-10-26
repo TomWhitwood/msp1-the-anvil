@@ -48,8 +48,38 @@
 
     <!-- Main elemement to hold all key sections of the enquire page -->
     <main>
-        
-       
+        <form id="enquiry-form">
+            <h2>Membership Enquiry</h2>
+
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="e.g Sam" autocomplete="given-name"
+                required>
+
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="e.g. Taylor" autocomplete="family-name"
+                required>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" autocomplete="email" required>
+    <!-- Pattern and title copied from AI (claude) -->
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="e.g 07123 456789" autocomplete="tel"
+                pattern="[0-9+\s\-()]{10,15}" title="Please enter a valid phone number (10-15 digits)" required>
+
+            <label for="membership">Membership Type</label>
+            <select id="membership" name="membership" required>
+                <option value="" disabled selected>Please select...</option>
+                <option value="standard">Standard Membership</option>
+                <option value="student">Students and Teenagers Membership</option>
+                <option value="senior">Senior Membership</option>
+                <option value="blue-light">Blue Light Membership</option>  
+            </select>
+
+            <button type="submit">Submit enquiry</button>
+    <!-- Form message copied from AI (claude) as I wanted positive user feedback and was unsure on how to add this -->
+            <p id="form-message" role="status" aria-live="polite" hidden></p>
+        </form>
+
     </main>
 
     <!-- Footer -->
