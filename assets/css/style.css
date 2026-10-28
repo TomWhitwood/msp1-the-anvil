@@ -109,6 +109,10 @@ main {
     font-size: 40px;
 }
 
+.testimonials-header {
+    padding-top: 5%;
+}
+
 /* Gallery section */
 #photos img {
     width: 100%;
