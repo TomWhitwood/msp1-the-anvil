@@ -113,6 +113,11 @@ main {
     padding-top: 5%;
 }
 
+#gallery-button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Gallery section */
 #photos img {
     width: 100%;
