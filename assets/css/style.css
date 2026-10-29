@@ -113,6 +113,11 @@ main {
     padding-top: 5%;
 }
 
+.testimonial-card { /* Override bootstrap to sharpen edges on cards */
+    --bs-card-border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+}
+
 /* Gallery section */
 #photos img {
     width: 100%;
