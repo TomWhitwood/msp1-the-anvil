@@ -301,7 +301,9 @@ main {
 }
 
 /* Button styling */
-
+.btn {
+    --bs-btn-border-radius: 0;
+}
 
 /* Footer */
 #social-networks {
