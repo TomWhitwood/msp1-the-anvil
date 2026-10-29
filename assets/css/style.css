@@ -144,6 +144,11 @@ main {
     color:black;
 }
 
+.membership-card {
+     --bs-card-border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+}
+
 /* Enquiry form section */
 #enquiry-form {
     max-width: 420px;
