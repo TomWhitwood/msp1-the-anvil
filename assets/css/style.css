@@ -145,7 +145,7 @@ main {
 }
 
 .membership-card {
-     --bs-card-border-radius: 0;
+    --bs-card-border-radius: 0;
     --bs-card-inner-border-radius: 0;
 }
 
